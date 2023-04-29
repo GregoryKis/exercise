@@ -1,7 +1,7 @@
 package com.exercise.arrays;
 
 import java.util.ArrayList;
-import java.util.List;
+ import java.util.List;
 
 public class PascalTriangle {
 
@@ -32,7 +32,7 @@ public class PascalTriangle {
 
     public static void main(String[] args) {
         PascalTriangle ex = new PascalTriangle();
-           ex.getRow(6);
+        System.out.println(ex.getRow(6));
     }
 
 
